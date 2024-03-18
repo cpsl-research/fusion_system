@@ -4,4 +4,5 @@
     <node pkg="fusion_system_perception" exec="camera_perception">
         <param from="$(find-pkg-share fusion_system_bringup)/config/perception.yaml"/>
     </node>
+    <node pkg="fusion_system_tracking" exec="sort_tracking"/>
 </launch>

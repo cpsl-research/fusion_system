@@ -12,6 +12,7 @@
   <exec_depend>fusion_system_display</exec_depend>
   <exec_depend>fusion_system_drivers</exec_depend>
   <exec_depend>fusion_system_perception</exec_depend>
+  <exec_depend>fusion_system_tracking</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

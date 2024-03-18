@@ -7,8 +7,8 @@ import cv2
 class CameraDriver(Node):
     def __init__(self):
         super().__init__('camera_driver')
-        self.publisher_ = self.create_publisher(Image, 'camera_image', 10)
-        self.timer = self.create_timer(0.5, self.timer_callback)
+        self.publisher_ = self.create_publisher(Image, 'camera_image', 200)
+        self.timer = self.create_timer(0.01, self.timer_callback)
         self.bridge = CvBridge()
 
         # initilize the webcam

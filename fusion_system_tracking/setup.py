@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'sort_tracking = fusion_system_tracking.sort_tracking:main',
         ],
     },
 )
